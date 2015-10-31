@@ -1,0 +1,107 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-be {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -699px;
+  width: 60px;
+  height: 60px;
+}
+.icon-doing-clock {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -165px;
+  width: 48px;
+  height: 48px;
+}
+.icon-doing-detail {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -291px;
+  width: 48px;
+  height: 48px;
+}
+.icon-doing-pencil {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -102px;
+  width: 48px;
+  height: 48px;
+}
+.icon-doing-phone {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -228px;
+  width: 30px;
+  height: 48px;
+}
+.icon-dribble {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -774px;
+  width: 60px;
+  height: 60px;
+}
+.icon-facebook {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -549px;
+  width: 60px;
+  height: 60px;
+}
+.icon-features-img {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -924px;
+  width: 361px;
+  height: 240px;
+}
+.icon-footer-social {
+  background-image: url(../img/sprites.png);
+  background-position: 0px 0px;
+  width: 155px;
+  height: 18px;
+}
+.icon-google {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -849px;
+  width: 60px;
+  height: 60px;
+}
+.icon-logo {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -33px;
+  width: 99px;
+  height: 19px;
+}
+.icon-team-facebook {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -354px;
+  width: 50px;
+  height: 50px;
+}
+.icon-team-in {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -419px;
+  width: 50px;
+  height: 50px;
+}
+.icon-team-tw {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -484px;
+  width: 50px;
+  height: 50px;
+}
+.icon-tw {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -624px;
+  width: 60px;
+  height: 60px;
+}
+.icon-zoom {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -67px;
+  width: 20px;
+  height: 20px;
+}

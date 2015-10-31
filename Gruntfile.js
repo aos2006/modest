@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 		},
 		autoprefixer: {
 			options: {
-				browsers: ["last 2 version", "ie 10"]
+				browsers: ["last 2 version", "ie 9"]
 			},
 			source: {
 				src: "source/css/style.css"
@@ -85,8 +85,9 @@ module.exports = function(grunt) {
 					src: [
 						"img/**",
 						"js/**",
+						"css/screen.css",
 						"fonts/**",
-						"index.html",
+						"*.html",
 						
 					],
 					dest: "build"
@@ -212,14 +213,8 @@ module.exports = function(grunt) {
 	]);
 	
 	grunt.registerTask('optimization', [
-		"cssmin",
-		"htmlmin",
-		"ucss",
+        "copy",
 		"imagemin"
-
-
-
-
 	]);
 	
 };

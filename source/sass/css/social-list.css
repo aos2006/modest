@@ -1,0 +1,14 @@
+.social-list {
+  font-size: 0; }
+  .social-list__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1px; }
+  .social-list__link {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px; }
+    .social-list__link--fb {
+      background-image: url(../img/sprites.png);
+      background-position: 0px -549px; }

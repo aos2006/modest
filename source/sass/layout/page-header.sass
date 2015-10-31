@@ -1,0 +1,29 @@
+.page-header
+	padding: 28px 0
+	+justify
+	&__logo
+		display: inline-block
+		vertical-align: middle
+	&__navigation
+		display: inline-block
+		vertical-align: middle
+	&__navigation &__item--active
+		border-radius: 3px
+		border: 2px solid #23b7a4
+		color: #23b7a4
+		&:hover
+			border: 2px solid #23b7a4
+			color: #23b7a4
+	&__item
+		margin-right: 40px
+		padding: 9px 12px
+		border: 2px solid transparent
+		&:hover
+			border: 2px solid #5b6168
+			border-radius: 2px
+		&:last-child
+			margin-right: 0
+	&__banner
+		min-height: 660px
+		background: #3a454d url("../img/page-header__banner.jpg") no-repeat
+		background-size: 100% 100%
