@@ -84,10 +84,10 @@ module.exports = function(grunt) {
 					cwd: "source",
 					src: [
 						"img/**",
-						"js/**",
+						"js/*.js",
 						"css/screen.css",
 						"fonts/**",
-						"*.html",
+						"*.html"
 						
 					],
 					dest: "build"
@@ -139,7 +139,8 @@ module.exports = function(grunt) {
 				options: {
 					spawn: false,
 					livereload: true
-				},
+				}
+
 			},
 			html: {
 				files: ['source/*.html'],
